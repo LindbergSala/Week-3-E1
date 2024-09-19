@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(japan.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 5px solid white;
+    width: 800px;
+    height: 500px;
+}
+
+.ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
